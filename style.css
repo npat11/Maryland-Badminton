@@ -17,14 +17,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
     background-color: black;
     width: 100%;
 }
 
 .logo {
     cursor: pointer;
-    max-height: 85px;
+    max-height: 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+    filter: brightness(70%);
+    transform: scale(0.9);
+    
 }
 
 h1 {
@@ -62,7 +68,7 @@ h1 {
 
 #socials {
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     left: 0;
     width: 100%;
     background-color: black;
@@ -91,4 +97,20 @@ h1 {
 
 .social-links li a:hover {
     color: #ffd200;
+}
+
+#team-photo-home{
+    display: block;
+    width: 50%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 0.5%;
+}
+
+#mission {
+    font-family: 'Lato';
+}
+
+hr {
+    border-color:#666666;
 }
