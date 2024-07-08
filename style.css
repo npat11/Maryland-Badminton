@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,12 +7,10 @@
     background-color: #e6e6e6;
 }
 
-li, a {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #e21833;
-    text-decoration: none;
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6; 
+    position: relative; 
 }
 
 header {
@@ -21,11 +19,21 @@ header {
     align-items: center;
     padding: 15px;
     background-color: black;
+    width: 100%;
 }
 
 .logo {
     cursor: pointer;
     max-height: 85px;
+}
+
+h1 {
+    background-color: black;
+    color: #e21833; 
+    -webkit-text-stroke-color: #ffd200; 
+    -webkit-text-stroke-width: 2px;
+    font-size: 72px;
+    font-family: 'Lato';   
 }
 
 .nav-links {
@@ -42,21 +50,45 @@ header {
 .nav-links li a {
     transition: all 0.3s ease 0s;
     background-color: black;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e21833;
+    text-decoration: none;
 }
 
 .nav-links li a:hover {
-    color: #ffd200
+    color: #ffd200;
 }
 
-h1 {
+#socials {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
     background-color: black;
-    color: #e21833; 
-    -webkit-text-stroke-color: #ffd200; 
-    -webkit-text-stroke-width: 2px;
-    font-size: 72px;
-    font-family: 'Lato';   
-    position: absolute;
-    left: 10%;   
+    text-align: center;
+    padding: 10px 0;
 }
 
+.social-links {
+    background-color: black;
+}
 
+.social-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: black;
+}
+
+.social-links li a {
+    transition: all 0.3s ease 0s;
+    font-size: 1.5rem;
+    color: #e21833;
+    text-decoration: none;
+    background-color: black;
+}
+
+.social-links li a:hover {
+    color: #ffd200;
+}
