@@ -101,7 +101,6 @@ h1 {
 }
 
 #team-photo-home{
-    display: block;
     width: 50%;
     margin-left: 2%;
     border-radius: 0.5%;
@@ -115,13 +114,17 @@ hr {
     display: flex;
     align-items: center;
     background-color: #cfcfcf;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#mission {
+    padding-right: 1%;
+    margin-right: 1%;
 }
 
 #mission h3{
     background-color: #e21833;
-    margin-right: 2%;
 }
 
 #home-content1 #mission {
@@ -135,7 +138,6 @@ hr {
     background-color: #e21833;
     font-size: 175%;
     padding-left: 2%;
-    padding-right: 10%;
     margin-right: 1%;
 }
 
@@ -160,7 +162,7 @@ hr {
 
 #sph-building {
     width: 45%;
-    margin-right: 1%;
+    margin-right: 3%;
     border-radius: 0.5%;
 }
 
@@ -168,22 +170,22 @@ hr {
     display: flex;
     align-items: center;
     background-color: #cfcfcf;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #location-text {
     width: 60%;
     background-color: #e21833;
-    margin-left: 1%;
+    padding-left: 3%;
+    margin-left: 3%;
 }
 
 #location-text h3{
     background-color: #e21833;
     color: white;
     text-align: center;
-    font-size: 350%;
-    margin-right: 1%;
+    font-size: 325%;
 }
 
 #location-text p {
@@ -202,6 +204,10 @@ hr {
 
 #location-text em {
     background-color: #e21833;
+}
+
+#location-text ul {
+    list-style-type: none;
 }
 
 #parallax2 {
