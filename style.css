@@ -31,10 +31,17 @@ header {
 .logo:hover {
     filter: brightness(70%);
     transform: scale(0.9);
-    
 }
 
-h1 {
+.pageName {
+    background-color: black;
+    color: #ffd200; 
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lato';   
+}
+
+header h1 {
     background-color: black;
     color: #e21833; 
     -webkit-text-stroke-color: #ffd200; 
@@ -156,8 +163,8 @@ hr {
 }
 
 #parallax1 {
-    background-image: url("images/shuttle-bw.webp");
-    min-height: 325px;
+    background-image: url("images/shirt-logo.png");
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +223,7 @@ hr {
 
 #parallax2 {
     background-image: url("images/shirt-logo.png");
-    min-height: 1000px;
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -224,7 +231,8 @@ hr {
 }
 
 #officers ul li img {
-    max-height: 200px;
+    max-height: 225px;
+    border-radius: 1.5%;
 }
 
 #officers ul li div {
@@ -238,4 +246,24 @@ hr {
     justify-content: space-between;
     list-style-type: none;
     border: #e21833 solid 10px;
+    font-size: 24px;
+}
+
+#officers h2 {
+    text-align: center;
+    font-size: 42px;
+}
+
+#officers {
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+#parallax3 {
+    background-image: url("images/shirt-logo.png");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
