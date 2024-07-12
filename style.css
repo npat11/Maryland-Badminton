@@ -67,6 +67,10 @@ h1 {
     color: #ffd200;
 }
 
+.nav-links li a:active {
+    color: #ffd200;
+}
+
 #socials {
     position: fixed;
     bottom: 0px;
@@ -162,7 +166,7 @@ hr {
 
 #sph-building {
     width: 45%;
-    margin-right: 3%;
+    margin-right: 2%;
     border-radius: 0.5%;
 }
 
@@ -177,8 +181,8 @@ hr {
 #location-text {
     width: 60%;
     background-color: #e21833;
-    padding-left: 3%;
-    margin-left: 3%;
+    padding-left: 1%;
+    margin-left: 1%;
 }
 
 #location-text h3{
@@ -217,4 +221,21 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#officers ul li img {
+    max-height: 200px;
+}
+
+#officers ul li div {
+    text-align: center;
+}
+
+#officers ul  {
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    border: #e21833 solid 10px;
 }
