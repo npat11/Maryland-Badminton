@@ -267,3 +267,26 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#new-mems1 {
+    margin: 1% 1%;
+    padding: 1% 1%;
+}
+
+#join-steps {
+    display: flex;
+    justify-content: center;
+}
+
+
+#join-steps h4 {
+    font-size: 28px;
+}
+
+#join-steps div {
+    border:#e21833 5px solid;
+    border-radius: 20px;
+    width: 45%;
+    margin: 1% 1%;
+    padding: 1.5% 1.5%;
+}
