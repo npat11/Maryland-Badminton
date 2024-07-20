@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,14 +32,6 @@ header {
 .logo:hover {
     filter: brightness(70%);
     transform: scale(0.9);
-}
-
-.pageName {
-    background-color: black;
-    color: #ffd200; 
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Lato';   
 }
 
 header h1 {
@@ -129,20 +122,16 @@ hr {
     padding-bottom: 2%;
 }
 
-#mission {
-    padding-right: 1%;
-    margin-right: 1%;
-}
-
-#mission h3{
-    background-color: #e21833;
-}
-
 #home-content1 #mission {
     text-align: center;
     margin: auto auto;
     color: white;
     background-color: #cfcfcf;
+}
+
+#mission {
+    padding-right: 1%;
+    margin-right: 1%;
 }
 
 #mission em {
@@ -160,11 +149,13 @@ hr {
 #mission h3 {
     font-size: 350%;
     margin-right: 1%;
+    background-color: #e21833;
 }
 
-#parallax1 {
+#parallax1,
+#parallax2 {
     background-image: url("images/shirt-logo.png");
-    min-height: 200px;
+    min-height: 150px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -221,22 +212,14 @@ hr {
     list-style-type: none;
 }
 
-#parallax2 {
-    background-image: url("images/shirt-logo.png");
-    min-height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#officers {
+    padding-top: 2%;
+    padding-bottom: 6%;
 }
 
-#officers ul li img {
-    max-height: 225px;
-    border-radius: 1.5%;
-}
-
-#officers ul li div {
+#officers h2 {
     text-align: center;
+    font-size: 42px;
 }
 
 #officers ul  {
@@ -249,14 +232,13 @@ hr {
     font-size: 24px;
 }
 
-#officers h2 {
-    text-align: center;
-    font-size: 42px;
+#officers ul li img {
+    max-height: 225px;
+    border-radius: 1.5%;
 }
 
-#officers {
-    padding-top: 2%;
-    padding-bottom: 6%;
+#officers ul li div {
+    text-align: center;
 }
 
 #parallax3 {
@@ -268,6 +250,17 @@ hr {
     background-size: cover;
 }
 
+.pageName {
+    background-color: #fff; 
+    color: #333; 
+    text-align: center; 
+    padding: 15px 0; 
+    margin-bottom: 20px;
+    font-size: 28px; 
+    border-bottom: 2px solid #e21833; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
 #new-mems1 {
     margin: 1% 1%;
     padding: 1% 1%;
@@ -276,17 +269,22 @@ hr {
 #join-steps {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
-
 
 #join-steps h4 {
     font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 #join-steps div {
-    border:#e21833 5px solid;
+    border: #e21833 5px solid;
     border-radius: 20px;
     width: 45%;
-    margin: 1% 1%;
-    padding: 1.5% 1.5%;
+    margin: 10px;
+    padding: 20px;
 }
+
+
+
