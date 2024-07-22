@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6; 
     position: relative; 
 }
@@ -39,7 +39,7 @@ header h1 {
     color: #e21833; 
     -webkit-text-stroke-color: #ffd200; 
     -webkit-text-stroke-width: 2px;
-    font-size: 72px;
+    font-size: 64px;
     font-family: 'Lato';   
 }
 
@@ -104,52 +104,53 @@ header h1 {
     color: #ffd200;
 }
 
-#team-photo-home{
-    width: 50%;
-    margin-left: 2%;
-    border-radius: 0.5%;
-}
-
 hr {
     border-color:#e6e6e6;
 }
 
-#home-content1 {
+#home-main {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #cfcfcf;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    flex-direction: column;
+    padding: 1% 1% 1% 1%;
+    background: linear-gradient(45deg, black 0%, #e21833 50%, black 100%);; 
 }
 
-#home-content1 #mission {
+#team-photo-home {
+    border-radius: 15px;
+    margin-top: 1%;
+
+}
+
+#home-main #mission {
     text-align: center;
-    margin: auto auto;
-    color: white;
-    background-color: #cfcfcf;
+    margin-top: 1%;
+    color: #e21833;
 }
 
 #mission {
-    padding-right: 1%;
-    margin-right: 1%;
-}
-
-#mission em {
-    background-color: #e21833;
-    font-size: 175%;
-    padding-left: 2%;
-    margin-right: 1%;
-}
-
-#mission p {
-    background-color: #e21833;
-    margin-right: 1%;
+    text-align: center;
+    margin: auto auto;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px; 
 }
 
 #mission h3 {
-    font-size: 350%;
-    margin-right: 1%;
-    background-color: #e21833;
+    font-size: 42px;
+    background-color: black;
+}
+
+#mission p {
+    font-size: 19px;
+    padding: 4px 3px;
+    background-color: black;
+}
+
+#mission em {
+    
+    background-color: black;
 }
 
 #parallax1,
@@ -171,41 +172,41 @@ hr {
 #location-info {
     display: flex;
     align-items: center;
-    background-color: #cfcfcf;
+    background: linear-gradient(45deg, black 0%, #e21833 20%, black 100%);; 
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 #location-text {
     width: 60%;
-    background-color: #e21833;
+    background-color: black;
     padding-left: 1%;
     margin-left: 1%;
 }
 
 #location-text h3{
-    background-color: #e21833;
-    color: white;
+    background-color: black;
+    color: #e21833;
     text-align: center;
     font-size: 325%;
 }
 
 #location-text p {
-    background-color: #e21833;
-    color: white;
+    background-color: black;
+    color: #e21833;
     text-align: center;
     font-size: 150%;
 }
 
 #location-text li {
-    background-color: #e21833;
-    color: white;
+    background-color: black;
+    color: #e21833;
     text-align: center;
     font-size: 125%;
 }
 
 #location-text em {
-    background-color: #e21833;
+    background-color: black;
 }
 
 #location-text ul {
@@ -215,11 +216,13 @@ hr {
 #officers {
     padding-top: 2%;
     padding-bottom: 6%;
+    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%);; 
 }
 
 #officers h2 {
     text-align: center;
     font-size: 42px;
+    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%);; 
 }
 
 #officers ul  {
@@ -285,6 +288,4 @@ hr {
     margin: 10px;
     padding: 20px;
 }
-
-
 
