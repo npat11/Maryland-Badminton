@@ -113,25 +113,23 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1% 1% 1% 1%;
     background: linear-gradient(45deg, black 0%, #e21833 50%, black 100%);; 
 }
 
 #team-photo-home {
     border-radius: 15px;
-    margin-top: 1%;
-
+    margin-top: 1.15%;
 }
 
 #home-main #mission {
     text-align: center;
-    margin-top: 1%;
+    margin-top: 1.15%;
+    margin-bottom: 1.15%;
     color: #e21833;
 }
 
 #mission {
     text-align: center;
-    margin: auto auto;
     background-color: black;
     padding: 5px;
     border-radius: 15px; 
@@ -149,7 +147,6 @@ hr {
 }
 
 #mission em {
-    
     background-color: black;
 }
 
