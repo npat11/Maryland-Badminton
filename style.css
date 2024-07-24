@@ -287,6 +287,33 @@ hr {
     padding: 20px;
 }
 
+@keyframes carousel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.ss {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.image-slides {
+    display: inline-block;
+    padding: 20px 0;
+    animation: 35s carousel infinite linear;
+}
+
+.image-slides img {
+    height: 250px;
+    margin: 0 15px;
+    border-radius: 8px;
+}
+
 .faqs {
     margin: 10px 10px 70px 10px;
     border: 5px solid #e21833;
