@@ -179,6 +179,7 @@ hr {
     background-color: black;
     padding-left: 1%;
     margin-left: 1%;
+    border-radius: 15px;
 }
 
 #location-text h3{
@@ -261,28 +262,60 @@ hr {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-#new-mems1 {
+.general-info {
     margin: 1% 1%;
     padding: 1% 1%;
 }
 
-#join-steps {
+.joinsteps {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-#join-steps h4 {
+.joinsteps h4 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-#join-steps div {
+.joinsteps div {
     border: #e21833 5px solid;
     border-radius: 20px;
     width: 45%;
     margin: 10px;
     padding: 20px;
+}
+
+.faqs {
+    margin: 10px 10px 70px 10px;
+    border: 5px solid #e21833;
+    border-radius: 15px;
+}
+
+.question {
+    background-color: #e21833;
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 6px solid #e21833;
+}
+
+.answer.active {
+    display: block;
+    max-height: 1000px;
+    padding: 10px 10px 10px 10px;
+    margin: auto auto;
 }
 
