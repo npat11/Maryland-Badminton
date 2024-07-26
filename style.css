@@ -214,28 +214,34 @@ hr {
 #officers {
     padding-top: 2%;
     padding-bottom: 6%;
-    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%);; 
+    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%); 
+    text-align: center; 
 }
 
 #officers h2 {
-    text-align: center;
     font-size: 42px;
-    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%);; 
+    background: linear-gradient(90deg, black 0%, #e21833 50%, black 100%); 
 }
 
-#officers ul  {
-    margin: 1% 1% 1% 1%;
+#officers ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center; 
     list-style-type: none;
-    border: #e21833 solid 10px;
-    font-size: 24px;
+    margin: 0 auto; 
+    border: #e21833 solid 15px;
+    border-radius: 12px;
+    width: 65%; 
+}
+
+#officers ul li {
+    margin: 10px;
+    text-align: center; 
 }
 
 #officers ul li img {
-    max-height: 225px;
+    max-height: 300px;
     border-radius: 1.5%;
+    margin: 10px 10px;
 }
 
 #officers ul li div {
