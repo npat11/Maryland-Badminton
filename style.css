@@ -9,6 +9,7 @@
     background-color: #e6e6e6;
 }
 
+
 body {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.6; 
@@ -273,21 +274,21 @@ hr {
     padding: 1% 1%;
 }
 
-.joinsteps {
+#joinsteps-nm {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.joinsteps h4 {
+#joinsteps-nm h4 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.joinsteps div {
-    border: #e21833 5px solid;
-    border-radius: 20px;
+#joinsteps-nm div {
+    border: 8px solid #e21833;
+    border-radius: 10px;
     width: 45%;
     margin: 10px;
     padding: 20px;
@@ -310,7 +311,6 @@ hr {
 
 .image-slides {
     display: inline-block;
-    padding: 20px 0;
     animation: 35s carousel infinite linear;
 }
 
@@ -318,6 +318,33 @@ hr {
     height: 250px;
     margin: 0 15px;
     border-radius: 8px;
+}
+
+.general-info p {
+    text-align: center;
+}
+
+#joinsteps-ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#joinsteps-ct h4 {
+    font-size: 28px;
+    text-align: center;
+}
+
+#joinsteps-ct div {
+    border: 8px solid #e21833;
+    border-radius: 10px;
+    margin-bottom: 75px;
+}
+
+#joinsteps-ct ol {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
 }
 
 .faqs {
