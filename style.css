@@ -9,13 +9,13 @@
     background-color: #e6e6e6;
 }
 
-
 body {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.6; 
     position: relative; 
 }
 
+/*Navigation Bar Styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -72,6 +72,8 @@ header h1 {
     color: #ffd200;
 }
 
+
+/*Socials Bar Styling */
 #socials {
     position: fixed;
     bottom: 0px;
@@ -109,6 +111,7 @@ hr {
     border-color:#e6e6e6;
 }
 
+/* Home (index.html) Styling */
 #home-main {
     display: flex;
     justify-content: center;
@@ -129,6 +132,7 @@ hr {
     color: #e21833;
 }
 
+/*Home Page Mission Statement Styling */
 #mission {
     text-align: center;
     background-color: black;
@@ -151,6 +155,7 @@ hr {
     background-color: black;
 }
 
+/*Parallax Scroll Effect (smaller one) */
 #parallax1,
 #parallax2 {
     background-image: url("images/shirt-logo.png");
@@ -161,6 +166,7 @@ hr {
     background-size: cover;
 }
 
+/*Practice Logistics Styling */
 #sph-building {
     width: 45%;
     margin-right: 2%;
@@ -212,6 +218,7 @@ hr {
     list-style-type: none;
 }
 
+/*Club Officers Styling */
 #officers {
     padding-top: 2%;
     padding-bottom: 6%;
@@ -249,6 +256,7 @@ hr {
     text-align: center;
 }
 
+/*Home Ending Parallax Scroll (full screen) */
 #parallax3 {
     background-image: url("images/shirt-logo.png");
     min-height: 1000px;
@@ -258,6 +266,7 @@ hr {
     background-size: cover;
 }
 
+/*Content Page Name */
 .pageName {
     background-color: #fff; 
     color: #333; 
@@ -269,6 +278,7 @@ hr {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+/*New Members Page Styling */
 .general-info {
     margin: 1% 1%;
     padding: 1% 1%;
@@ -294,6 +304,8 @@ hr {
     padding: 20px;
 }
 
+/*Competitive Team Page Styling*/
+/*Image carousel*/
 @keyframes carousel {
     from {
         transform: translateX(0);
@@ -320,10 +332,12 @@ hr {
     border-radius: 8px;
 }
 
+/*Brief Team Intro */
 .general-info p {
     text-align: center;
 }
 
+/*Competitive Team Join Styling */
 #joinsteps-ct {
     display: flex;
     flex-direction: column;
@@ -347,6 +361,7 @@ hr {
     align-items: center;
 }
 
+/*FAQ Page Styling*/
 .faqs {
     margin: 10px 10px 70px 10px;
     border: 5px solid #e21833;
